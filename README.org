@@ -1,0 +1,37 @@
+#+TITLE: Project Notes
+#+AUTHOR: Taz Syroid (TS)
+#+DATE: [2024-12-03 Wed]
+#+REPO: tsyroid/emacs-prot-basic
+#+DESCRIPTION: Prot's ( Protesilaos Stavrou) 'Basic Init' - Explorations & Reflections
+#+OPTIONS:
+
+
+* README - Project Notes
+
+Contents: Prot's 'basic' init file (`.emacs.d/init.el`), and resultant derivatives, based on [[https://protesilaos.com/codelog/2024-11-28-basic-emacs-configuration/#h:8d8c57cc-04c9-408f-aca1-6493bc5d8f0d][Code Blog]] dated [2024-11-28].
+
+* Changelog
+
+** [2024-12-03 Wed]
++ Download and initialize
++ Twiddle with fonts
++ Commit to Github repo: https://github.com/tsyroid/emacs-prot-basic.git (see notes below)
+
+
+* Notes
+
+** GITHUB repo init
+#+begin_src shell
+## NOTE: **Public**
+echo "# emacs-prot-basic" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tsyroid/emacs-prot-basic.git
+git push -u origin main
+#+end_src
+
+
+
+Protesilaos Stavrou
