@@ -61,9 +61,13 @@ The DWIM behaviour of this command is as follows:
 (scroll-bar-mode 1)
 (tool-bar-mode -1)
 
-(let ((mono-spaced-font "Monospace")
+;; Kill the splash screen - disruptive
+(setq inhibit-startup-message t      ;; Disable startup message
+      visible-bell nil)              ;; No 'visible' bell
+
+(let ((mono-spaced-font "JetBrains Mono")
       (proportionately-spaced-font "Sans"))
-  (set-face-attribute 'default nil :family mono-spaced-font :height 160)
+  (set-face-attribute 'default nil :family mono-spaced-font :height 150)
   (set-face-attribute 'fixed-pitch nil :family mono-spaced-font :height 1.0)
   (set-face-attribute 'variable-pitch nil :family proportionately-spaced-font :height 1.0))
 
