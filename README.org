@@ -10,13 +10,19 @@
 
 Contents: Prot's 'basic' init file (`.emacs.d/init.el`), and resultant derivatives, based on [[https://protesilaos.com/codelog/2024-11-28-basic-emacs-configuration/#h:8d8c57cc-04c9-408f-aca1-6493bc5d8f0d][Code Blog]] dated [2024-11-28].
 
+* Resources
+
+** Title: Emacs: a basic and capable configuration
+** Dated: 2024-11-28
+** URL: https://protesilaos.com/codelog/2024-11-28-basic-emacs-configuration/#h:8d8c57cc-04c9-408f-aca1-6493bc5d8f0d
+
 * Changelog
 
 ** [2024-12-03 Wed]
 + Download and initialize
 + Twiddle with fonts
 + Commit to Github repo: https://github.com/tsyroid/emacs-prot-basic.git (see notes below)
-
++ Branch: `ui-tweaks` (default font to JetBrains Mono; Kill splash screen
 
 * Notes
 
@@ -31,7 +37,3 @@ git branch -M main
 git remote add origin https://github.com/tsyroid/emacs-prot-basic.git
 git push -u origin main
 #+end_src
-
-
-
-Protesilaos Stavrou
