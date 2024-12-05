@@ -1,3 +1,6 @@
+;; ~/.emacs.d/init.el
+;; Prot's 'basic' (2024-11-28) Emacs configuration
+
 (setq custom-file (locate-user-emacs-file "custom.el"))
 (load custom-file :no-error-if-file-is-missing)
 
