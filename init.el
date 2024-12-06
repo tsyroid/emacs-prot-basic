@@ -1,6 +1,9 @@
 ;; ~/.emacs.d/init.el
 ;; Prot's 'basic' (2024-11-28) Emacs configuration
 
+;; Added by TMS 2024-12-05
+(setq inhibit-startup-message t)
+
 (setq custom-file (locate-user-emacs-file "custom.el"))
 (load custom-file :no-error-if-file-is-missing)
 
